@@ -27,7 +27,7 @@ body{
 
 /*Services*/
 .top__padding{
-  padding-top: 50px;
+  padding: 50px 0;
 }
 
 .site-heading h2 {
@@ -216,3 +216,18 @@ body{
   color: #800d07;
 }
 /*Services*/
+/*About*/
+.about__section{
+    background: #f1f1f1;
+    padding: 50px 0px;
+}
+  .about__img img{
+    width: 100%;
+    border-radius: 10px; 
+    border: 1px solid #ccc;
+}
+.about__content p{
+  text-align: justify;
+      font-size: 20px;
+      padding-left: 20px;
+}
