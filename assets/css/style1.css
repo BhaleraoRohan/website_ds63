@@ -7,9 +7,11 @@ body{
     width: 100%;
     background: #fff;
     z-index: 111;
+    box-shadow: 0 0 10px 0px #a9a9a9;
+        border-radius: 0;
 }
 .navbar__brand {
-    width: 320px;
+    width: 130px;
     display: inline-table;
     padding: 0;
 }
@@ -40,7 +42,7 @@ body{
       padding-bottom: 10px;
 }
 .site-heading h2::before {
-    background: #800d07 none repeat scroll 0 0;
+    background: #f6e001 none repeat scroll 0 0;
     bottom: 0;
     content: "";
     height: 2px;
@@ -50,7 +52,7 @@ body{
     width: 50px;
 }
 .site-heading h2 span {
-  color: #800d07;
+  color: #f6e001;
 }
 
 .site-heading h4 {
@@ -62,7 +64,7 @@ body{
 }
 
 .site-heading h4::before {
-  background: #800d07 none repeat scroll 0 0;
+  background: #f6e001 none repeat scroll 0 0;
   bottom: 0;
   content: "";
   height: 2px;
@@ -76,6 +78,7 @@ body{
   margin-bottom: 60px;
   overflow: hidden;
   margin-top: -5px;
+  padding-top: 20px;
 }
 
 
@@ -157,7 +160,7 @@ body{
   -webkit-box-shadow: 0 0 10px #cccccc;
   -o-box-shadow: 0 0 10px #cccccc;
   box-shadow: 0 0 10px #cccccc;
-  color: #800d07;
+  color: #f6e001;
   display: inline-block;
   font-size: 30px;
   height: 100px;
@@ -182,7 +185,7 @@ body{
   -webkit-box-shadow: 0 0 10px #cccccc;
   -o-box-shadow: 0 0 10px #cccccc;
   box-shadow: 0 0 10px #cccccc;
-  color: #800d07;
+  color: #f6e001;
   display: inline-block;
   font-size: 50px;
   height: 80px;
@@ -214,7 +217,7 @@ body{
 }
 
 .features-area .features-items .items-box.inc-cell .item .info a:hover {
-  color: #800d07;
+  color: #f6e001;
 }
 .icon img{
   width: 30%;
@@ -223,7 +226,7 @@ body{
 /*About*/
 .about__section{
     background: #f1f1f1;
-    padding: 50px 0px;
+    padding: 30px 0px;
 }
   .about__img img{
     width: 100%;
@@ -296,7 +299,7 @@ background: #000;
  font-weight: bold;
 }
 .what__block p a{
-  color: #800d07;
+  color: #f6e001;
 }
 /*pROJECT*/
 
@@ -314,7 +317,7 @@ background: #000;
     position: absolute;
     bottom: 0px;
     display: inline-block;
-    background-color: #800d07;
+    background-color: #f6e001;
     text-transform: uppercase;
     font-size: 30px;
     font-weight: 500;

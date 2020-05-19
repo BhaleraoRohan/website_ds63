@@ -21,12 +21,12 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>                        
       </button>
-      <a class="navbar-brand navbar__brand" href="#"><img src="assets/images/logo1.jpg" style="width: 100%;"></a>
+      <a class="navbar-brand navbar__brand" href="omkar.html"><img src="assets/images/Logo.png" style="width: 100%;"></a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       
       <ul class="nav navbar-nav navbar-right navbar__right">
-        <li class="active"><a href="#">About Us</a></li>
+        <li class="active"><a id="about">About Us</a></li>
         <li class="dropdown">
           <a class="dropdown-toggle" data-toggle="dropdown" href="#">Projects <span class="caret"></span></a>
           <ul class="dropdown-menu">
@@ -35,7 +35,7 @@
             <li><a href="resident.html">RESIDETIAL</a></li>
           </ul>
         </li>
-        <li><a href="#">Contact</a></li>
+        <li><a id="contactus">Contact</a></li>
       </ul>
     </div>
   </div>
@@ -103,7 +103,7 @@
     </section>
 <!-- Services -->
 
-<section class="about__section">
+<section class="about__section" id="MyAbout">
   <div class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -170,32 +170,32 @@
 <div class="row">
     <div class="col-md-4">
       <div class="what__block">
-        <img src="assets/images/1.png" width="100%" class="block__imgdesk">
+        <a href="commercial.html"><img src="assets/images/1.png" width="100%" class="block__imgdesk"></a>
         <!-- <img src="images/home/a1.png" width="100%" class="block__imgmobile"> -->
   
         <h3>COMMERCIAL</h3>
         <!-- <p>Our new concept stores will cater to the young and trendy and will be serving delicious ready to eat (RTE) food which is promptly served in attractive and...</p> -->
-        <p class="learn__more"><a href="retail_industry.html"><i class="fas fa-caret-right"></i> Learn More</a></p>
+        <p class="learn__more"><a href="commercial.html"><i class="fas fa-caret-right"></i> More Detail</a></p>
       </div>
     </div>
     <div class="col-md-4">
       <div class="what__block">
-        <img src="assets/images/3.png" width="100%" class="block__imgdesk">
+        <a href="corporate.html"><img src="assets/images/3.png" width="100%" class="block__imgdesk"></a>
         <!-- <img src="images/home/a2.png" width="100%" class="block__imgmobile"> -->
   
         <h3>CORPORATE</h3>
         <!-- <p>In this era of globalization, it is common for more and more workers to take up better–paying jobs outside of their home countries. These workers need...</p> -->
-        <p class="learn__more"><a href="finance_money.html"><i class="fas fa-caret-right"></i> Learn More</a></p>
+        <p class="learn__more"><a href="corporate.html"><i class="fas fa-caret-right"></i> More Details</a></p>
       </div>
     </div>
     <div class="col-md-4">
       <div class="what__block">
-        <img src="assets/images/2.png" width="100%" class="block__imgdesk">
+        <a href="resident.html"><img src="assets/images/2.png" width="100%" class="block__imgdesk"></a>
         <!-- <img src="images/home/a3.png" width="100%" class="block__imgmobile"> -->
   
         <h3>RESIDETIAL</h3>
         <!-- <p>ADV intends to pool the resources of its investors together to invest in different high potential, high growth, high profit, and high dividend...</p> -->
-        <p class="learn__more"><a href="investment_management.html"><i class="fas fa-caret-right"></i> Learn More</a></p>
+        <p class="learn__more"><a href="resident.html"><i class="fas fa-caret-right"></i> More Details</a></p>
       </div>
     </div>
   </div>
@@ -208,7 +208,7 @@
 
 <!--Footer  -->
 
-<section id="contact" class="contact__sec">
+<section id="MyCall" class="contact__sec">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -261,5 +261,18 @@
             <a href="#" target="_blank" class="ds-hover-text-green"><u>Design Studio 63</u></a>
         </p>
     </footer>
+    <script type="text/javascript">
+    $("#contactus").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#MyCall").offset().top
+    }, 1000);
+});
+
+        $("#about").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#MyAbout").offset().top
+    }, 1000);
+});
+</script>
 </body>
 </html>
