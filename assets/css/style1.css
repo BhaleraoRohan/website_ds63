@@ -216,7 +216,6 @@ body{
   text-transform: uppercase;
 }
 
-
 .features-area .features-items .items-box.inc-cell .item .info a:hover {
   color: #f6e001;
 }
@@ -336,7 +335,7 @@ background: #000;
     position: relative;
     float: left;
     overflow: hidden;
-    background: #3085a3;
+    background: #000000;
     text-align: center;
     cursor: pointer;
 }
@@ -403,7 +402,7 @@ background: #000;
 
 
 figure.effect-ravi {
-    background: #303fa9;
+    background: #000000;
     margin: 0;
 }
 
