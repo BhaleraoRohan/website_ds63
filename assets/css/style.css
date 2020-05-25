@@ -14,8 +14,7 @@ font-family: SFProDisplay-Regular;
 src: url(../../assets/css/SFProDisplay-Regular.ttf);
 }
 .dropdown__menu>li>a{
-      padding: 10px 15px;
-
+      padding: 10px 15px !important;
 }
 .navbar__main{
 margin-bottom: 0;
