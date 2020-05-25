@@ -10,6 +10,10 @@ font-family: Helvetica-Bold;
 src: url(../../assets/css/Helvetica-Bold.ttf);
 }
 @font-face {
+font-family: Helvetica;
+src: url(../../assets/css/Helvetica.ttf);
+}
+@font-face {
 font-family: SFProDisplay-Regular;
 src: url(../../assets/css/SFProDisplay-Regular.ttf);
 }
