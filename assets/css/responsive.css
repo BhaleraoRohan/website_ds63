@@ -74,7 +74,18 @@ line-height: 38px;
 
 }
 @media only screen and (max-width: 767px) {
-
+.navbar__right li a {
+    padding: 15px 15px;
+}
+.what__block {
+    margin-bottom: 40px;
+}
+.site-heading {
+    margin-bottom: 35px;
+}
+.project__sec {
+    padding: 15px 0;
+}
 }
 @media only screen and (max-width: 750px) {
 

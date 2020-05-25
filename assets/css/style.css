@@ -20,6 +20,13 @@ src: url(../../assets/css/SFProDisplay-Regular.ttf);
 .dropdown__menu>li>a{
       padding: 10px 15px !important;
 }
+.navbar__main .navbar-header button{
+      border: 1px solid #000;
+    margin-top: 25px;
+}
+.navbar__main .navbar-header button span{
+  background: #000;
+} 
 .navbar__main{
 margin-bottom: 0;
 position: fixed;
@@ -247,19 +254,41 @@ width: 30%;
 }
 /*Services*/
 /*About*/
+.about__content .text-center{
+    margin: 0;
+    text-align: left;
+}
+.about__content .text-center h2{
+    margin: 0;
+}
+.about__content .site-heading h2::before {
+    background: #f6e001 none repeat scroll 0 0;
+    bottom: 0;
+    content: "";
+    height: 2px;
+    left: 8%;
+    margin-left: -25px;
+    position: absolute;
+    width: 50px;
+}
 .about__section{
 background: #f1f1f1;
-padding: 30px 0px;
 }
 .about__img img{
-width: 100%;
-border-radius: 10px;
-border: 1px solid #ccc;
+    width: 100%;
+    border-radius: 0;
+    border: 0;
+    height: 370px;
+    object-fit: cover;
+    object-position: left;
 }
 .about__content p{
 text-align: justify;
-font-size: 20px;
-padding-left: 20px;
+font-size: 16px;
+padding-top: 10px;
+}
+.about__name{
+      font-weight: bold;
 }
 /*About*/
 /*Contact*/
@@ -308,6 +337,17 @@ letter-spacing: 1px;
 }
 /*About*/
 /*Project*/
+.what__block{
+    box-shadow: 0 0 6px 0 #bababa;
+    border-radius: 5px;
+}
+.what__content{
+      padding: 5px 25px;
+}
+
+
+
+
 .project__sec{
 padding:50px 0;
 }
@@ -319,6 +359,7 @@ border-radius: 3px;
 font-weight: bold;
     margin-top: 10px;
     margin-bottom: 3px;
+    font-size: 20px;
 }
 .what__block p a{
 color: #2b547e;
