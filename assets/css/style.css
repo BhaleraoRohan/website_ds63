@@ -365,10 +365,59 @@ font-weight: bold;
 color: #2b547e;
 }
 /*pROJECT*/
+
+
+/*Model*/
+
+.item.item__img img{
+    border-radius: 15px !important;
+    height: 500px;
+    width: auto;
+    margin: auto;
+}
+.modal__bodyy{
+    padding: 0px;
+}
+.modal__headerr
+{
+    background: #f5e005;
+    padding: 5px 15px;
+}
+.modal__headerr h4{
+    font-weight: bolder;
+}
+.modal__headerr .close {
+    margin-top: 0px;
+    text-shadow: unset;
+    opacity: unset;
+}
+
+
+/*Model*/
+
+
 /*Commercial*/
-.commercial__img
+.project__resident
+{
+background-image: url(../images/2.png);
+height: 385px;
+background-size: cover;
+position: relative;
+/* font-family: SFProDisplay-Regular; */
+background-position: center;
+}
+.project__commericial
 {
 background-image: url(../images/3.png);
+height: 385px;
+background-size: cover;
+position: relative;
+/* font-family: SFProDisplay-Regular; */
+background-position: center;
+}
+.project__corporate
+{
+background-image: url(../images/1.png);
 height: 385px;
 background-size: cover;
 position: relative;
@@ -543,7 +592,20 @@ padding:50px 0;
 .carousel__control i{
 position: absolute;
 top: 50%;
+left: 60px;
 z-index: 5;
 display: inline-block;
 margin-top: -10px;
+    box-shadow: 0 0px 15px 0 #000;
+    background: #000000;
+    border-radius: 50%; 
+}
+.carousel__control{
+        opacity: unset;
+}
+.carousel__control.left{
+ background-image:unset !important;
+}
+.carousel__control.right{
+    background-image:unset !important;
 }

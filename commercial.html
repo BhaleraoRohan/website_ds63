@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/responsive.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="assets/js/bootstrap.min.js"></script>
 </head>
@@ -29,7 +30,7 @@
         <li class="active"><a href="#">About Us</a></li>
         <li class="dropdown">
           <a class="dropdown-toggle" data-toggle="dropdown" href="#">Projects <span class="caret"></span></a>
-          <ul class="dropdown-menu">
+          <ul class="dropdown-menu dropdown__menu">
             <li><a href="commercial.html">COMMERCIAL</a></li>
             <li><a href="corporate.html">CORPORATE</a></li>
             <li><a href="resident.html">RESIDETIAL</a></li>
@@ -41,21 +42,21 @@
   </div>
 </nav>
   
-<div class="commercial__img">
+<div class="project__commericial commercial__img">
   <h1>COMMERCIAL</h1>
 </div>
 
 
 <div class="container comm__section">
             <div class="grid">
-                <div class="row">
-                    <div class="col-md-4">
+                <div class="row row__d">
+                    <div class="col-md-4 col-sm-12">
                         <figure class="effect-ravi" data-toggle="modal" data-target=".bs-example-modal-lg">
                             <img src="assets/images/gallery/banner/commercial/sp/ban.png" alt="img17" />
                             <figcaption>
-                                <h2><span>Spring and Oninon</span></h2>
+                                <h2><span>Spring &nbsp; Onion</span></h2>
                                 <p>
-                                    <a href="#"><i class="fa fa-search"></i></a>
+                                    <a href="#"><i class="fa fa-eye"></i></a>
                                 </p>
                             </figcaption>
                         </figure>
@@ -74,10 +75,15 @@
 
 
 
-<!-- Model Slider -->
+<!-- Modal -->
 <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-lg">
     <div class="modal-content">
+      <div class="modal-header modal__headerr">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Spring Onion</h4>
+      </div>
+      <div class="modal-body modal__bodyy">
       <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
   <!-- Wrapper for slides -->
   <div class="carousel-inner">
@@ -96,16 +102,20 @@
   </div>
 
   <!-- Controls -->
-  <a class="left carousel-control carousel__control" href="#carousel-example-generic" role="button" data-slide="prev">
+  <a class="left carousel-control carousel__control carousel__control" href="#carousel-example-generic" role="button" data-slide="prev">
     <i class="fas fa-arrow-alt-circle-left"></i>
   </a>
-  <a class="right carousel-control carousel__control" href="#carousel-example-generic" role="button" data-slide="next">
+  <a class="right carousel-control carousel__control carousel__control" href="#carousel-example-generic" role="button" data-slide="next">
     <i class="fas fa-arrow-alt-circle-right"></i>
   </a>
+</div>
+</div>
 </div>
     </div>
   </div>
 </div>
+<!-- Modal End -->
+
 
 
 <!--Footer  -->
